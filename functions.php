@@ -219,6 +219,60 @@ function create_post_type() {
 				)
 			)
 		);
+
+	register_post_type('inside-philippines',
+		array(
+			'labels' => array(
+				'name' => __('Inside Philippines'),
+				'singular_name' => __('Inside Philippines'),
+				'add_new' => __('New Inside Philippines'),
+				'add_new_item' => __('Add New Inside Philippines'),
+				'new_item' => __('New Inside Philippines'),
+				'edit_item' => __('Edit Inside Philippines'),
+				'view_item' => __('View Inside Philippines'),
+				'all_items' => __('All Inside Philippines')
+				),
+			'menu_icon' => 'dashicons-welcome-widgets-menus',
+			'public' => true,
+			'has_archive' => true,
+			'supports' => array(
+				'name', 
+				'title', 
+				'editor', 
+				'excerpt', 
+				'custom-fields', 
+				'thumbnail',
+				'revisions'
+				)
+			)
+		);
+
+	register_post_type('best-student-teacher',
+		array(
+			'labels' => array(
+				'name' => __('Best Student/Teacher'),
+				'singular_name' => __('Best Student/Teacher'),
+				'add_new' => __('New Best Student/Teacher'),
+				'add_new_item' => __('Add New Best Student/Teacher'),
+				'new_item' => __('New Best Student/Teacher'),
+				'edit_item' => __('Edit Best Student/Teacher'),
+				'view_item' => __('View Best Student/Teacher'),
+				'all_items' => __('All Best Student/Teacher')
+				),
+			'menu_icon' => 'dashicons-welcome-widgets-menus',
+			'public' => true,
+			'has_archive' => true,
+			'supports' => array(
+				'name', 
+				'title', 
+				'editor', 
+				'excerpt', 
+				'custom-fields', 
+				'thumbnail',
+				'revisions'
+				)
+			)
+		);
 }
 
 add_action('init', 'register_my_menu');

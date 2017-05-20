@@ -76,7 +76,7 @@
 										<li><a href="">Trải nghiệm của học viên</a></li>
 										<li><a href="">Bửa ăn tại TALK</a></li>
 										<li><a href="">Khám quá Philippines</a></li>
-										<!-- <li><a href="">Best Student &amp; Teacher</a></li> -->
+										<li><a href="">Best Student &amp; Teacher</a></li>
 									</ul>
 								</div>
 							</div>
