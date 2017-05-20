@@ -1,0 +1,478 @@
+/*
+Theme Name: Talkyangco Vietnam
+Theme URI: 
+Description: Talkyangco WordPress theme
+Version: 2
+Author: Reynaldo S. Batac Jr.
+Author Email: reynaldo.batac@outlook.com
+*/
+.mask {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	color: #fff;
+	background-color: rgba(32,63,80, .3);
+	padding: 15px;
+}
+#notice-plus {
+	float: right;
+	font-size: 24px;
+	font-weight: bolder;
+	display: inline-block;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+.next-button {
+	width: 26px;
+	height: 26px;
+	background-image: url('img/next-button.png');
+	display: none;
+	float:right;
+	font-weight: bolder;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+.next-button-black {
+	width: 26px;
+	height: 26px;
+	background-image: url('img/next-button-black.png');
+	display: inline-block;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	cursor: pointer;
+}
+#login-box {
+	float: right;
+	width: 100%;
+	margin-top: 10px;
+	text-align: right;
+	padding-left: 80px;
+}
+#weblinks {
+	background-color: rgb(32,63,80);
+	padding: 5px 0;
+	text-align: center;
+}
+#weblinks a {
+	padding: 5px;
+	color: #fff;
+}
+#quick-links {
+	border: 1px solid #666;
+	padding: 5px 10px;
+	border-radius: 3px;
+	width: 250px;
+	float: right;
+	display: none;
+	text-align: center;
+}
+#quick-links a {
+	color: #666;
+}
+#qualified-programs-container{
+	padding: 0 5px;
+	margin-bottom: 15px;
+}
+
+#about-container, #experience-container, #notice-container, #plans-container, #best-place-container, #campaign-container, #calendar-container {
+	margin-bottom: 15px;
+	padding: 0 5px;
+}
+#about-hover, #experience-hover {
+	font-size: 12px;
+	display: none;
+}
+#best-place:hover .mask, #plans:hover .mask, #qualified-programs:hover .mask, #about:hover .mask, #experience:hover .mask {
+	background-color: rgba(32,63,80, .8);
+}
+#about:hover #about-normal, #experience:hover #experience-normal {
+	display: none;
+}
+#about:hover #about-hover, #experience:hover #experience-hover {
+	display: initial;
+}
+
+.plus-sign {
+	position: absolute;
+	font-size: 24px;
+	font-weight: bolder;
+	bottom: 10px;
+	right: 15px;
+}
+.navbar-default {
+	background-color: #fff;
+	border: none !important;
+	padding-bottom: 30px;
+}
+.navbar-nav li a {
+	font-size: 13px !important;
+}
+
+#logo img {
+	width: 68px;
+	height: 68px;
+	z-index: 999;
+}
+.navbar-default, .navbar-toggle{
+	border: none !important;
+}
+
+#example-navbar-collapse {
+	margin-top: 51px;
+}
+
+/* Home */
+#qualified-programs, #about, #experience, #notice, #plans, #best-place {
+	display: block;
+	position: relative;
+	color: #fff;
+	padding: 10px;
+}
+#notice {
+	background-color: rgb(41, 90, 97);
+}
+#notice p {
+	display: none;
+}
+#notice:hover #notice-plus{
+	display: none;
+}
+#notice:hover .next-button{
+	display: inline-block;
+}
+#notice:hover strong {
+	display: none;
+}
+#notice:hover p {
+	display: initial;
+}
+.course-builder:hover{
+	background-color: #fff;
+	color:#666;
+	border: 1px solid #666;
+	cursor: pointer;
+}
+#campaign, #calendar {
+	display: block;
+	position: relative;
+	padding: 10px;
+	border: 1px solid #666;
+}
+#qualified-programs {
+	min-height: 466px;
+	background: url('img/qualified-programs.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#course-builder-container {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	left: 10px;
+}
+#about {
+	min-height: 180px;
+	background: url('img/about-talk.jpg');
+	padding-bottom: 40px;
+}
+#experience {
+	min-height: 180px;
+	background: url('img/student-experience.png');
+	padding-bottom: 40px;
+}
+#plans {
+	background: url('img/plans.png');
+}
+#best-place {
+	min-height: 200px;
+	background: url('img/best-place.png');
+}
+
+#qualified-programs, #about, #experience, #plans {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#about h2, #experience h2 {
+	margin-top: 0;
+	font-size: 24px;
+}
+
+.course-builder {
+	border: 1px solid #fff;
+	padding: 10px;
+	margin: 10px 0 5px;
+}
+.course-builder p {
+	font-size: 12px;
+	float: right;
+}
+
+#qualified-programs h1 {
+	margin-top: 10px;
+	font-size: 28px;
+	font-weight: bolder;
+}
+
+#notice-list {
+	cursor: pointer;
+	padding: 0;
+	list-style: none;
+}
+#notice-list li a {
+	display: block;
+	color: #fff;
+	padding: 10px;
+	border: 1px solid #fff;
+	margin-bottom: 10px;
+}
+#notice-list li a:hover {
+	background-color: #fff;
+	color: #666;
+	text-decoration: none;
+}
+#plans {
+		min-height: 650px;
+	}
+#plan-list-container {
+	padding-top: 10px;
+}
+.plan-list-hover {
+	display: none;
+}
+.plan-list-hover p {
+	text-align: left !important;
+}
+.plan-list {
+	position: relative;
+	border: 1px solid #fff;
+	padding: 10px;
+	margin: 5px 0;
+}
+.plan-list:hover {
+	font-size:12px;
+	background-color: #fff;
+	color: #666;
+}
+.plan-list:hover .plan-list-normal {
+	display: none;
+}
+.plan-list:hover .plan-list-hover {
+	display: initial;
+}
+#best-place-list-container {
+	padding-top: 10px;
+}
+#best-place-list {
+	padding: 0;
+	list-style: none;
+}
+#best-place-list li a {
+	display: block;
+	color: #fff;
+	padding: 10px;
+	border: 1px solid #fff;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+#best-place-list li a:hover {
+	background-color: #fff;
+	color: #666;
+	text-decoration: none;
+}
+#campaign-list-container {
+	padding-top: 10px;
+}
+#campaign-list {
+	padding: 0;
+	list-style: none;
+}
+#campaign-list li a {
+	min-height: 62px;
+	display: block;
+	color: #666;
+	padding: 20px 10px 0 10px;
+	border: 1px solid #666;
+	margin-bottom: 10px;
+}
+#campaign-list li a:hover {
+	font-weight: bolder;
+	text-decoration: none;
+}
+.calendar-list-parent {
+	text-align: center;
+	min-height: 81px;
+}
+.calendar-list-parent p {
+	padding: 5px;
+}
+.calendar-list:hover {
+	font-weight: bolder;
+}
+.object-fit_cover{object-fit:cover}
+
+footer #footer-menu {
+	padding: 10px 0;
+	background-color: #000;
+	color: #fff;
+}
+footer #footer-menu ul {
+	list-style: none;
+	padding: 0;
+}
+footer #footer-menu ul li a {
+	color: #fff;
+}
+	.plan-list {
+		min-height: 92px;
+	}
+.footer-icons {
+	min-height: 160px;
+}
+
+@media (min-width: 768px) {
+	#weblinks {
+		text-align: right;
+	}
+	.navbar-default {
+		padding-bottom: 0;
+	}
+	.navbar-nav {
+	    float: left;
+	    margin: 0 0 0 70px;
+	}
+
+	.nav>li>a {
+		padding: 10px 15px;
+	}
+
+	#qualified-programs-container{
+		padding: 0 10px 0 5px;
+		margin-bottom: 15px;
+	}
+	#qualified-programs {
+		min-height: 336px;
+		background: url('img/qualified-programs.png');
+	}
+	.course-builder {
+		min-height: 70px;
+	}
+	.course-builder strong {
+		font-size: 12px;
+	}
+	.course-builder p {
+		position: absolute;
+		bottom: 0px;
+		font-weight: bolder;
+		font-size: 14px;
+		float: none;
+	}
+	#qualified-programs .col-md-3:nth-child(odd) {
+		padding-left: 20px;
+		padding-right: 5px;
+	}
+	#qualified-programs .col-md-3:nth-child(even) {
+		padding-right: 20px;
+		padding-left: 5px;
+	}
+
+	#about-container {
+		padding: 0 10px 0 5px;
+	}
+	#experience-container {
+		padding-right: 10px;
+	}
+	#plans {
+		min-height: 635px;
+	}
+	.footer-icons {
+		min-height: 140px;
+	}
+}
+
+@media (min-width: 992px) {
+	#quick-links {
+		display: initial;
+	}
+	.nav>li>a {
+		font-size: 12px;
+		padding: 10px 10px;
+	}
+
+	#course-builder-container {
+		position: absolute;
+		right: 10px;
+		bottom: 10px;
+		left: 10px;
+	}
+	.course-builder {
+		min-height: 90px;
+	}
+	.course-builder p {
+		position: absolute;
+		bottom: 15px;
+	}
+	#about, #experience {
+		min-height: 160px;
+	}
+	#notice, #plans {
+		min-height: 319px;
+	}
+	#notice-list-container, #plan-list-container, #best-place-list-container, #calendar-list-container {
+		position: absolute;
+		right: 10px;
+		bottom: 10px;
+		left: 10px;
+	}
+	#best-place, #calendar {
+		min-height: 268px;
+	}
+	#qualified-programs .col-md-3:first-child {
+		padding-left: 20px;
+		padding-right: 2px;
+	}
+	#qualified-programs .col-md-3:nth-child(2) {
+		padding-left: 12px;
+		padding-right: 7px;
+	}
+	#qualified-programs .col-md-3:nth-child(3) {
+		padding-left: 7px;
+		padding-right: 12px;
+	}
+	#qualified-programs .col-md-3:last-child {
+		padding-right: 20px;
+		padding-left: 2px;
+	}
+	#about-container {
+		margin-bottom: 15px;
+	}
+	.plan-list-parent:nth-child(1) {
+		padding-right: 5px;
+	}
+	.plan-list-parent:nth-child(2) {
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+	.plan-list-parent:nth-child(3) {
+		padding-left: 5px;
+	}
+	.plan-list {
+		min-height: 120px;
+	}
+	.plan-list p {
+		text-align: center;
+	}
+}
+
+@media (min-width: 1200px) {
+
+	.nav>li>a {
+		font-size: 14px;
+		padding: 10px 20px;
+	}
+}

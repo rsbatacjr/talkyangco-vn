@@ -1,0 +1,43 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-12 21:22+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the theme
+msgid "Talkyangco English"
+msgstr ""
+
+msgctxt "학교소개"
+msgid "About TALK"
+msgstr ""
+
+msgctxt "유학까지의 흐름"
+msgid "Process"
+msgstr ""
+
+msgctxt "연수비용"
+msgid "Registration"
+msgstr ""
+
+msgctxt "토크의 영어 학습방법"
+msgid "Talk's Know-how"
+msgstr ""
+
+msgctxt "필리핀어학연수계획"
+msgid "Studying Plan"
+msgstr ""
+
+msgctxt " 커뮤니티"
+msgid "Community"
+msgstr ""
