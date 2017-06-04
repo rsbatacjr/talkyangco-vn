@@ -310,3 +310,28 @@ function create_schedule_types_table() {
  
 	dbDelta($sql_create_table);
 }
+
+function listByPostType() {
+	$htmlResult = "";
+	$post_type = get_post_meta(get_the_ID(), "category", true);
+	wp_reset_query();
+    $args=array('post_type'=>$post_type,'order'=>'DESC');
+    $loop=new WP_Query($args);
+
+    if($loop->have_posts()){
+        while($loop->have_posts()):$loop->the_post();
+        	$htmlResult.=
+        	"
+        		<tr>
+        			<td>".get_the_ID()."</td>
+        			<td><a class=grey-link href='".get_permalink()."'>".get_the_title()."</a></td>
+        			<td>".get_the_author()."</td>
+        			<td>".get_the_date('Y.m.d')."</td>
+        			<td></td>
+        		</tr>
+        	";
+        endwhile;
+    }
+
+    echo $htmlResult;
+}
