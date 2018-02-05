@@ -25,12 +25,12 @@
         <div class="row">
           <div id="weblinks">
             <div class="container">
-              <a href="" style="border: 1px solid #fff; padding: 3px 5px; font-size: 12px; border-radius: 3px">AGENCY</a>&nbsp;&nbsp;
-              <a href="#">ENG</a>
-              <a href="#">KR</a>
-              <a href="#">JPN</a>
-              <a href="#">CN</a>
-              <a href="#">TW</a>
+              <a href="http://talkonline.cafe24.com/2013/" style="border: 1px solid #fff; padding: 3px 5px; font-size: 12px; border-radius: 3px">AGENCY</a>&nbsp;&nbsp;
+              <a href="http://talk-academy.com">ENG</a>
+              <a href="http://talk-academy.kr">KR</a>
+              <a href="http://talk-academy.jp">JPN</a>
+              <a href="http://talk-academy.cn">CN</a>
+              <a href="http://talk-academy.tw">TW</a>
             </div>
           </div>
         </div>
@@ -49,7 +49,7 @@
                       </div>
                     <div class="col-xs-12 col-md-4">
                       <div id="quick-links">
-                        <a href="#">E-Brochure</a> | <a href="#">Hướng dẫn</a> | <a href="#">Liên hệ</a>
+                        <a href="http://talk-academy.vn/wp-content/uploads/2017/08/Brochure-1700519KR.pdf">E-Brochure</a> | <a href="http://talk-academy.com/wp-content/uploads/2017/08/KOREA-TALK-OT-170329.pdf">Hướng dẫn</a> | <a href="ttp://talk-academy.com/online-consultation/">Liên hệ</a>
                       </div>
                     </div>
                     </div>
@@ -66,12 +66,23 @@
                   <div class="col-xs-12 col-sm-12 col-md-8">
                                             
                     <ul class="nav navbar-nav">
-                      <li><a href="#">Giới thiệu</a></li>
-                      <li><a href="#">Tiến trình</a></li>
-                      <li><a href="#">Đăng kí</a></li>
-                      <li><a href="#">Khóa học</a></li>
-                      <li><a href="#">Kế hoạch học tập</a></li>
-                      <li><a href="#">Cộng đồng</a></li>
+			<li class="mobile-dropdown">
+			<span data-toggle="collapse" data-target="#first-mobile-menu">Giới thiệu</span>
+			  <ul id="first-mobile-menu" class="collapse">
+			    <li><a href="http://talk-academy.vn/about-us/">About</a></li>
+			    <li><a href="http://talk-academy.vn/about-us/">About</a></li>
+		            <li><a href="http://talk-academy.vn/greetings/">Greetings</a></li>
+		            <li><a href="http://talk-academy.vn/strengths/">Strengths</a></li>
+		            <li><a href="http://talk-academy.vn/location/">Location</a></li>
+			  </ul>
+			</li>
+
+	                      <li><a href="http://talk-academy.vn/about-us/">Giới thiệu</a></li>
+	                      <li><a href="http://talk-academy.vn/">Tiến trình</a></li>
+	                      <li><a href="http://talk-academy.vn/">Đăng kí</a></li>
+	                      <li><a href="http://talk-academy.vn/">Khóa học</a></li>
+	                      <li><a href="http://talk-academy.vn/">Kế hoạch học tập</a></li>
+	                      <li><a href="http://talk-academy.vn/">Cộng đồng</a></li>
                     </ul>
                   </div>
                 </div>

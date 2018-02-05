@@ -1,11 +1,114 @@
 /*
-Theme Name: Talkyangco Vietnam
-Theme URI: 
+Theme Name: Talkyangco English rey
+Theme URI:
 Description: Talkyangco WordPress theme
 Version: 2
 Author: Reynaldo S. Batac Jr.
 Author Email: reynaldo.batac@outlook.com
 */
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+.mobile-fonts {
+	font-size: 71%;
+}
+
+.footer-image {
+	min-height: 80px;
+}
+
+.carousel-indicators {
+	display:none;
+}
+.mobile-dropdown {
+	padding: 5px 0;
+}
+#first-mobile-menu,#second-mobile-menu,#third-mobile-menu,#fourth-mobile-menu,#fifth-mobile-menu,#sixth-mobile-menu {
+	list-style: none;
+}
+#first-mobile-menu li ,#second-mobile-menu li ,#third-mobile-menu li ,#fourth-mobile-menu li ,#fifth-mobile-menu li ,#sixth-mobile-menu li {
+	padding: 3px 0;
+}
+#first-mobile-menu li a,#second-mobile-menu li a,#third-mobile-menu li a,#fourth-mobile-menu li a,#fifth-mobile-menu li a,#sixth-mobile-menu li a {
+	color: #333;
+}
+.navbar-default {
+	padding-bottom: 0 !important;
+}
+.navbar-header {
+	height:  75px;
+}
+
+.floating-search-tb {
+position: absolute;
+right: 0;
+width: 250px;
+z-index: 99;
+}
+.search-lens { position: relative; float: right; margin-top: 10px; cursor: pointer; }
+.search { position: relative; }
+.search input { text-indent: 30px;
+float: right; border: 1px solid #c0c0c0;border-radius: 5px;width:250px;margin-top:5px;padding: 5px;}
+.search .fa-search {
+  position: absolute;
+  top: 13px;
+  right: 17px;
+  font-size: 15px;
+}
+* {
+	font-family: 'Arial', serif;
+	font-size: 100%;
+}
+.panel {
+	border: none;
+	margin-bottom: 5px;
+}
+.panel-group {
+	margin-left: -15px;
+	margin-right: -15px;
+	margin-bottom: 0;
+	padding: 0;
+	border-bottom: 1px solid #424242;
+}
+
+.panel-heading {
+	background-color: #000;
+	color: #fff;
+	padding:5px 2px;
+	position:relative;
+}
+
+.panel-heading h4 {
+	padding: 13px 30px;
+	font-size: 90%;
+	font-weight: bold;
+}
+.panel-title a {
+	text-decoration: none !important;
+	display: block !important;
+}
+.panel-title i {
+	position: absolute;
+	right: 30px;
+	top: 15px;
+	font-size: 15px;
+}
+.panel-body {
+	background-color: #000;
+	padding: 0;
+	background-color: #333;
+	border:none !important;
+}
+.panel-body a {
+	color: #fff;
+	padding: 20px 55px;
+	background-color: #2D2D2D;
+	border-top: 1px solid #424242;
+	display: block;
+	text-decoration: none;
+	font-size: 85%;
+}
+.panel-body a:last-child {
+	border-bottom: 1px solid #fff;
+}
 .mask {
 	position: absolute;
 	top: 0;
@@ -64,7 +167,7 @@ Author Email: reynaldo.batac@outlook.com
 	border: 1px solid #666;
 	padding: 5px 10px;
 	border-radius: 3px;
-	width: 250px;
+	width: 350px;
 	float: right;
 	display: none;
 	text-align: center;
@@ -82,7 +185,7 @@ Author Email: reynaldo.batac@outlook.com
 	padding: 0 5px;
 }
 #about-hover, #experience-hover {
-	font-size: 12px;
+	font-size: 13px;
 	display: none;
 }
 #best-place:hover .mask, #plans:hover .mask, #qualified-programs:hover .mask, #about:hover .mask, #experience:hover .mask {
@@ -110,7 +213,6 @@ Author Email: reynaldo.batac@outlook.com
 .navbar-nav li a {
 	font-size: 13px !important;
 }
-
 #logo img {
 	width: 68px;
 	height: 68px;
@@ -190,6 +292,7 @@ Author Email: reynaldo.batac@outlook.com
 #best-place {
 	min-height: 200px;
 	background: url('img/best-place.png');
+	background-size: cover;
 }
 
 #qualified-programs, #about, #experience, #plans {
@@ -209,7 +312,7 @@ Author Email: reynaldo.batac@outlook.com
 	margin: 10px 0 5px;
 }
 .course-builder p {
-	font-size: 12px;
+	font-size: 13px;
 	float: right;
 }
 
@@ -237,7 +340,7 @@ Author Email: reynaldo.batac@outlook.com
 	text-decoration: none;
 }
 #plans {
-		min-height: 650px;
+		min-height: 700px;
 	}
 #plan-list-container {
 	padding-top: 10px;
@@ -255,7 +358,7 @@ Author Email: reynaldo.batac@outlook.com
 	margin: 5px 0;
 }
 .plan-list:hover {
-	font-size:12px;
+	font-size:13px;
 	background-color: #fff;
 	color: #666;
 }
@@ -316,16 +419,20 @@ Author Email: reynaldo.batac@outlook.com
 }
 .object-fit_cover{object-fit:cover}
 
-footer #footer-menu {
-	padding: 10px 0;
+footer .footer-menu {
+	padding: 0;
 	background-color: #000;
 	color: #fff;
 }
-footer #footer-menu ul {
+footer .footer-menu ul {
 	list-style: none;
 	padding: 0;
 }
-footer #footer-menu ul li a {
+footer .footer-menu ul li {
+	line-height: 25px !important;
+	font-size: 11px !important;
+}
+footer .footer-menu ul li a {
 	color: #fff;
 }
 	.plan-list {
@@ -335,10 +442,149 @@ footer #footer-menu ul li a {
 	min-height: 160px;
 }
 
+.course-notes tr td {
+	padding: 15px 10px !important;
+	vertical-align: middle !important;
+	border-bottom: 1px solid #c0c0c0 !important;
+}
+
+.course-notes tr td:first-child {
+	border-right: 1px dashed #c0c0c0;
+	text-align: right;
+}
+
+#course-offered {
+	background-color: rgb(59,56,56);
+	color: #fff;
+}
+#course-offered h3 {
+	text-align: right;
+}
+
+#course-offered table tr td {
+	text-align: center;
+	vertical-align: middle;
+}
+
+h2 {
+	text-align: center;
+	line-height: 1em;
+	font-size: 24px;
+	background-color: #c0c0c0;
+	padding: 3px !important;
+	display: inline-block;
+	margin: 10px auto;
+}
+
+.class-schedule tr td {
+	vertical-align: middle;
+	text-align: center;
+}
+.class-schedule tr td p, .class-schedule tr td ul {
+	text-align: left;
+}
+
+.class-schedule tr td ul {
+	margin: 25px 0;
+}
+
+.class-schedule tr td ul li {
+	color: #ff0000;
+}
+.class-schedule tr td ul li p {
+	color: #000;
+}
+
+#esl-course {
+	margin-bottom: 15px;
+	background-color: rgb(249, 251, 252)
+}
+.red-text {
+	color: #ff0000;
+}
+
+#esl-521-pink {
+	margin-bottom: 15px;
+	background-color: rgb(228, 76, 166);
+	padding: 15px;
+	color: #fff;
+}
+
+#esl-521-blue {
+	margin-bottom: 15px;
+	background-color: rgb(46, 162, 204);
+	padding: 15px;
+	color: #fff;
+}
+
+#esl-521-pink table tr td, #esl-521-blue table tr td {
+	text-align: center;
+}
+#esl-521-pink em, #esl-521-blue em {
+	font-size: 10px;
+	text-align: center;
+	display: block;
+}
+
+.white-border-button {
+	border: 1px solid #fff;
+	background-color: transparent;
+	padding: 15px;
+	width: 80%;
+	margin: 0 10% 10px 10%;
+}
+
+.align-bottom {
+	position: absolute;
+	bottom:0;
+}
+.gallery-image {
+	width: 100%;
+}
+.carousel-inner {
+	width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+}
+.bldg-img {
+	height: 250px !important;
+}
+#width_150 {
+	width:80px;
+}
+.filler_150 { height: 0; }
 @media (min-width: 768px) {
+	.bldg-img {
+		height:311px;
+	}
+	#width_150 {
+		width: 150px;
+	}
+	.filler_150 { height: 150px; }
+	.mobile-fonts {
+		font-size: 100%;
+	}
+	.footer-image {
+		height: 150px;
+	}
+	.carousel-indicators {
+		display: inline-block;
+	}
+	#example-navbar-collapse-xs { display: none !important; }
+	.navbar-header.in {
+		height:  50px;
+	}
+	#floating-menu {
+		display: inline-block;
+	}
+	.panel-group {
+		margin-left: -66px;
+		margin-right: -66px;
+	}
 	#weblinks {
 		text-align: right;
 	}
+
 	.navbar-default {
 		padding-bottom: 0;
 	}
@@ -348,7 +594,7 @@ footer #footer-menu ul li a {
 	}
 
 	.nav>li>a {
-		padding: 10px 15px;
+		padding: 10px 10px;
 	}
 
 	#qualified-programs-container{
@@ -358,12 +604,13 @@ footer #footer-menu ul li a {
 	#qualified-programs {
 		min-height: 336px;
 		background: url('img/qualified-programs.png');
+		background-size: cover;
 	}
 	.course-builder {
 		min-height: 70px;
 	}
 	.course-builder strong {
-		font-size: 12px;
+		font-size: 13px;
 	}
 	.course-builder p {
 		position: absolute;
@@ -388,7 +635,7 @@ footer #footer-menu ul li a {
 		padding-right: 10px;
 	}
 	#plans {
-		min-height: 635px;
+		min-height: 670px;
 	}
 	.footer-icons {
 		min-height: 140px;
@@ -400,8 +647,8 @@ footer #footer-menu ul li a {
 		display: initial;
 	}
 	.nav>li>a {
-		font-size: 12px;
-		padding: 10px 10px;
+		font-size: 13px !important;
+		padding: 10px 8px;
 	}
 
 	#course-builder-container {
@@ -437,12 +684,12 @@ footer #footer-menu ul li a {
 		padding-right: 2px;
 	}
 	#qualified-programs .col-md-3:nth-child(2) {
-		padding-left: 12px;
+		padding-left: 13px;
 		padding-right: 7px;
 	}
 	#qualified-programs .col-md-3:nth-child(3) {
 		padding-left: 7px;
-		padding-right: 12px;
+		padding-right: 13px;
 	}
 	#qualified-programs .col-md-3:last-child {
 		padding-right: 20px;
@@ -473,6 +720,33 @@ footer #footer-menu ul li a {
 
 	.nav>li>a {
 		font-size: 14px;
-		padding: 10px 20px;
+		padding: 10px 14px;
 	}
+}
+
+#floating-menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #fff;
+	z-index: 9;
+	border-bottom: 1px solid #c0c0c0;
+	-webkit-box-shadow: 3px 6px 5px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 6px 5px -5px rgba(0,0,0,0.75);
+	box-shadow: 3px 6px 5px -5px rgba(0,0,0,0.75);
+}
+
+#floating-menu a {
+	color: #333;
+}
+
+.size-full {
+	width: auto !important;
+	height: auto !important;
+	max-width: 100% !important;
+}
+
+.img-responsive {
+	display: inline-block !important;
 }

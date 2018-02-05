@@ -47,7 +47,7 @@ get_header();
 			</div>
 		</div>
 		<div id="about-container" class="col-xs-12 col-sm-6 col-md-4">
-			<div id="about">
+			<div id="about" onclick="javascript:window.location = 'http://3d.jesolution.co.kr/canitalk/talk_yangco/'">
 				<div class="mask">
 					<h2>Tìm hiểu về TALK</h2>
 					<div id="about-normal">
@@ -68,7 +68,7 @@ Nếu bạn biết thông tin quan trọng trước khi nhập học, sẽ rất
 			</div>
 		</div>
 		<div id="experience-container" class="col-xs-12 col-sm-6 col-md-4">
-			<div id="experience">
+			<div id="experience" onclick="javascript:window.location = 'http://talk-academy.vn/experience/'">
 				<div class="mask">
 					<h2>Trải nghiệm của học viên</h2>
 					<div id="experience-normal">
