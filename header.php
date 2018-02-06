@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?php bloginfo('name'); ?> <?php wp_title('&laquo;', true, 'right'); ?></title>
     <meta name="description" content="<?php bloginfo('description'); ?>" />
+    <meta name="description" content="Học viện TALK cung cấp nhiều chương trình Anh ngữ dành cho sinh viên muốn nâng cao kỹ năng Anh ngữ của mình và chuẩn bị cho kỳ thi, xin việc và định cư sang các nước khác." />
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -49,7 +50,7 @@
                       </div>
                     <div class="col-xs-12 col-md-4">
                       <div id="quick-links">
-                        <a href="http://talk-academy.vn/wp-content/uploads/2017/08/Brochure-1700519KR.pdf">E-Brochure</a> | <a href="http://talk-academy.com/wp-content/uploads/2017/08/KOREA-TALK-OT-170329.pdf">Hướng dẫn</a> | <a href="ttp://talk-academy.com/online-consultation/">Liên hệ</a>
+                        <a href="http://talk-academy.com/wp-content/uploads/2017/08/Brochure-1700519KR.pdf">E-Brochure</a> | <a href="http://talk-academy.com/wp-content/uploads/2017/08/KOREA-TALK-OT-170329.pdf">Hướng dẫn</a> | <a href="http://talk-academy.com/online-consultation/">Liên hệ</a>
                       </div>
                     </div>
                     </div>
@@ -64,25 +65,49 @@
                 </div>
                 <div class="collapse navbar-collapse" id="example-navbar-collapse">
                   <div class="col-xs-12 col-sm-12 col-md-8">
-                                            
-                    <ul class="nav navbar-nav">
-			<li class="mobile-dropdown">
-			<span data-toggle="collapse" data-target="#first-mobile-menu">Giới thiệu</span>
-			  <ul id="first-mobile-menu" class="collapse">
-			    <li><a href="http://talk-academy.vn/about-us/">About</a></li>
-			    <li><a href="http://talk-academy.vn/about-us/">About</a></li>
-		            <li><a href="http://talk-academy.vn/greetings/">Greetings</a></li>
-		            <li><a href="http://talk-academy.vn/strengths/">Strengths</a></li>
-		            <li><a href="http://talk-academy.vn/location/">Location</a></li>
-			  </ul>
-			</li>
+            
+                   <ul class="nav navbar-nav">
+		<li class="dropdown-submenu">
+			<a href="/about-us/">Giới thiệu</a>
+		  <ul class="dropdown-menu">
+                      <li><a href="http://talk-academy.vn/about-us/">Về chúng tôi</a></li>
+                            <li><a href="http://talk-academy.vn/greetings/">LỜI CHÀO</a></li>
+                            <li><a href="http://talk-academy.vn/strengths/">CÁC THẾ MẠNH</a></li>
+                            <li><a href="http://talk-academy.vn/location/">VỊ TRÍ</a></li>
+                          </ul>
+                        </li>
 
-	                      <li><a href="http://talk-academy.vn/about-us/">Giới thiệu</a></li>
-	                      <li><a href="http://talk-academy.vn/">Tiến trình</a></li>
-	                      <li><a href="http://talk-academy.vn/">Đăng kí</a></li>
-	                      <li><a href="http://talk-academy.vn/">Khóa học</a></li>
-	                      <li><a href="http://talk-academy.vn/">Kế hoạch học tập</a></li>
-	                      <li><a href="http://talk-academy.vn/">Cộng đồng</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="/procedure/">Nhập học</a>
+                            <ul class="dropdown-menu">
+                              <li><a href="http://talk-academy.com/procedure/">Hướng dẫn nhập học</a></li>
+                              <li><a href="http://talk-academy.com/about-preparation/">Các bước chuẩn bị</a></li>
+                              <li><a href="http://talk-academy.com/faqs/">FAQ</a></li>
+                              <li><a href="http://talk-academy.com/medical-and-insurance/">Thuốc và bảo hiểm</a></li>
+                              <li><a href="http://talk-academy.com/way-to-baguio/">Cách đi đến Baguio</a></li>
+                              <li><a href="http://talk-academy.com/campaigns/">Tin tức</a></li>
+                            </ul>
+                          </li>
+
+			 <li class="dropdown-submenu">
+                            <a href="/tuition-fee/">Đăng kí nhập học</span>
+                            <ul class="dropdown-menu">
+                              <li><a href="http://talk-academy.com/tuition-fee/">Học phí</a></li>
+                              <li><a href="http://talk-academy.com/dormitory-type/">Ký túc xá</a></li>
+                              <li><a href="http://talk-academy.com/miscellaneous-fee/">Chi phí địa phương</a></li>
+                              <li><a href="http://talk-academy.com/ielts-official-test-dates/">Lịch thi IELTS chính thức</a></li>
+                              <li><a href="http://talk-academy.com/toeic-official-test-dates/">Lịch thi TOEIC chính thức</a></li>
+                              <li><a href="http://talk-academy.com/philippine-holiday/">Các ngày lễ ở Philippines</a></li>
+                              <li><a href="http://talk-academy.com/official-pickup-dates/">Lịch đón học viên</a></li>
+                              <li><a href="http://talk-academy.com/refund-policy/">Chính sách hoàn tiền</a></li>
+                              <li><a href="http://talk-academy.com/online-registration/">Nhận thư mời nhập học</a></li>
+                            </ul>
+                          </li>
+
+                      <li><a href="#">Đăng kí</a></li>
+                      <li><a href="#">Khóa học</a></li>
+                      <li><a href="#">Kế hoạch học tập</a></li>
+                      <li><a href="#">Cộng đồng</a></li>
                     </ul>
                   </div>
                 </div>
