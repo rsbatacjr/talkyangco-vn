@@ -1,6 +1,6 @@
 			<div class="row">
 				<footer>
-					<div id="footer-menu">
+					<div id="footer-menu" class="footer-menu visible-lg" style="padding-top:15px";>
 						<div class="container">
 							<div class="row">
 								<div class="col-md-2">
@@ -133,5 +133,56 @@ Schools Association</p>
 		</div>
 	</body>
 	<script type="text/javascript" src="<?php echo THEME_URI ?>/js/jquery.min.js"></script>
-	<script type="text/javascript" src="<?php echo THEME_URI ?>/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="<?php echo THEME_URI ?>/js/bootstrap.min.js">
+		$(document).ready(function(){
+			if($(window).width() <= 764) {
+				$('input[name="s"]').css({"width": $(this).width() - 250});
+			}
+			$('.dropdown-submenu').on("mousemove", function(e){
+				var ul = $(this).find('ul');
+
+				if(ul.css("display") == "none")
+				{
+					ul.css({"display": "inline-block"});
+				}
+  			}).on("mouseout", function(e) {
+  				$(this).find('ul').css({"display": "none"});
+  			});
+		});
+		$(document).on("ready", function(){
+			var ht = $('.center-this').height();
+			$('.center-this').css({"margin-top": "-" + ((ht-315)/2) + "px"});
+			$('.panel-title').on('click', function() {
+				$(this).find('i').text(($(this).find('i').text() == "+" ? "-" : "+"));
+			});
+			$(window).scroll(function() {
+				$('#floating-search-tb').toggleClass('hidden', true);
+				if($(document).scrollTop() >= 120 && $(window).width() > 960) {
+					$('#floating-menu').toggleClass('hidden',false);
+				} else if($(document).scrollTop() < 120) {
+					$('#floating-menu').toggleClass('hidden', true);
+				}
+			});
+		});
+
+		$(document).on('click', '.search-lens', function() {
+			$(this).find('.floating-search-tb').toggleClass('hidden', false);
+			$(this).find('.floating-search-tb').find('input[name="s"]').focus();
+		});
+
+		$(document).on("scroll", function() {
+			if ($(this).scrollTop() >= 119)
+			{
+				console.log($(this).scrollTop());
+				$('#floating-menu').toggleClass("hidden", false);
+			}
+			else if($(this).scrollTop() <= 119)
+			{
+				$('#floating-menu').toggleClass("hidden", true);
+			}
+		});
+		$(window).on('resize', function() {
+			$('input[name="s"]').css({"width": $(this).width() - 250});
+		});
+</script>
 </html>
