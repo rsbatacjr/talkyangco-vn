@@ -61,11 +61,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-                  <a id="logo" class="navbar-brand" href="<?php echo HOME_PAGE; ?>"><img src="<?php echo THEME_URI; ?>/img/talk-logo.png"></a>
+                  
                 </div>
                 <div class="collapse navbar-collapse" id="example-navbar-collapse">
                   <div class="col-xs-12 col-sm-12 col-md-8">
-            
+            	                      <a id="logo" class="navbar-brand" style="position:absolute;top: -55px; left: -40px;" href="<?php echo HOME_PAGE; ?>"><img src="<?php echo THEME_URI; ?>/img/talk-logo.png"></a>
                    <ul class="nav navbar-nav">
 		<li class="dropdown-submenu">
 			<a href="/about-us/">Giới thiệu</a>

@@ -1,6 +1,6 @@
 <?php
 require_once('wp_bootstrap_navwalker.php');
-define('HOME_PAGE', "http://talkyangco.dev:7000");
+define('HOME_PAGE', "http://talk-academy.vn");
 define('THEME_URI', get_template_directory_uri());
 require_once('manage-schedule.php');
 require_once('manage-weblinks.php');
