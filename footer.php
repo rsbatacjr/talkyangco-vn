@@ -5,78 +5,76 @@
 							<div class="row">
 								<div class="col-md-2">
 									<ul>
-										<li><a href="">Giới thiệu</a></li>
+										<li><a href="/about-us/">Giới thiệu</a></li>
 										<li>&nbsp;</li>
-										<li><a href="">VỀ CHÚNG TÔI</a></li>
-										<li><a href="">Lời chào hỏi</a></li>
-										<li><a href="">Điểm mạnh</a></li>
-										<li><a href="">Vị trí</a></li>
+										<li><a href="http://talk-academy.vn/about-us/">VỀ CHÚNG TÔI</a></li>
+										<li><a href="http://talk-academy.vn/greetings/">Lời chào hỏi</a></li>
+										<li><a href="http://talk-academy.vn/strengths/">Điểm mạnh</a></li>
+										<li><a href="http://talk-academy.vn/location/">Vị trí</a></li>
 									</ul>
 								</div>
 								<div class="col-md-2">
 									<ul>
-										<li><a href="">Quá trình</a></li>
+										<li><a href="/procedure/">Quá trình</a></li>
 										<li>&nbsp;</li>
-										<li><a href="">Thủ tục</a></li>
-										<li><a href="">Về chuẩn bị</a></li>
-										<li><a href="">Câu hỏi thường gặp</a></li>
-										<li><a href="">Bảo hiểm y tế</a></li>
-										<li><a href="">Cách đến Baguio</a></li>
-										<li><a href="">Chiến dịch</a></li>
+										<li><a href="http://talk-academy.vn/procedure/">Thủ tục</a></li>
+										<li><a href="http://talk-academy.vn/about-preparation/">Về chuẩn bị</a></li>
+										<li><a href="http://talk-academy.vn/faqs/">Câu hỏi thường gặp</a></li>
+										<li><a href="http://talk-academy.vn/medical-and-insurance/">Bảo hiểm y tế</a></li>
+										<li><a href="http://talk-academy.vn/way-to-baguio/">Cách đến Baguio</a></li>
+										<li><a href="http://talk-academy.vn/campaigns/">Chiến dịch</a></li>
 									</ul>
 								</div>
 								<div class="col-md-2">
 									<ul>
-										<li><a href="">Đăng ký</a></li>
+										<li><a href="/tuition-fee/">Đăng ký</a></li>
 										<li>&nbsp;</li>
-										<li><a href="">Học phí</a></li>
-										<li><a href="">Loại ký túc xá</a></li>
-										<li><a href="">Khoản phí khác</a></li>
-										<li><a href="">Lich thi IELTS</a></li>
-										<li><a href="">Lịch thi TOEIC</a></li>
-										<li><a href="">Kỳ nghỉ ở Philippines</a></li>
-										<li><a href="">Ngày đón chính thức</a></li>
-										<li><a href="">Chính sách hoàn lại tiền</a></li>
-										<li><a href="">E-Application (Đăng ký ngay bây giờ))</a></li>
+										<li><a href="http://talk-academy.vn/tuition-fee/">Học phí</a></li>
+										<li><a href="http://talk-academy.vn/dormitory-type/">Loại ký túc xá</a></li>
+										<li><a href="http://talk-academy.vn/miscellaneous-fee/">Khoản phí khác</a></li>
+										<li><a href="http://talk-academy.vn/ielts-official-test-dates/">Lich thi IELTS</a></li>
+										<li><a href="http://talk-academy.vn/toeic-official-test-dates/">Lịch thi TOEIC</a></li>
+										<li><a href="http://talk-academy.vn/philippine-holiday/">Kỳ nghỉ ở Philippines</a></li>
+										<li><a href="http://talk-academy.vn/official-pick-up-dates/">Ngày đón chính thức</a></li>
+										<li><a href="http://talk-academy.vn/refund-policy/">Chính sách hoàn lại tiền</a></li>
+										<li><a href="http://talk-academy.vn/online-registration/">E-Application (Đăng ký ngay bây giờ))</a></li>
 									</ul>
 								</div>
 								<div class="col-md-2">
 									<ul>
-										<li><a href="">KHÓA HỌC</a></li>
+										<li><a href="/more-about-talk/">KHÓA HỌC</a></li>
 										<li>&nbsp;</li>
-										<li><a href="">ESL 421, 521, 611</a></li>
-										<li><a href="">Intensive IELTS</a></li>
-										<li><a href="">Intensive TOEIC</a></li>
-										<li><a href="">IELTS đảm bảo</a></li>
-										<li><a href="">TOEIC đảm bảo</a></li>
-										<li><a href="">Power Speaking</a></li>
-										<li><a href="">Working Holiday</a></li>
-										<li><a href="">Family ESL</a></li>
-										<li><a href="">Liên hệ</a></li>
+										<li><a href="http://talk-academy.vn/yangco-esl/">ESL 421, 521, 611</a></li>
+										<li><a href="http://talk-academy.vn/ielts/">Intensive IELTS</a></li>
+										<li><a href="http://talk-academy.vn/toeic/">Intensive TOEIC</a></li>
+										<li><a href="http://talk-academy.vn/power-speaking/">Power Speaking</a></li>
+										<li><a href="http://talk-academy.vn/job-ready">Working Holiday</a></li>
+										<li><a href="http://talk-academy.vn/family-esl/">Family ESL</a></li>
+										<li><a href="http://talk-academy.vn/online-consultation/">Liên hệ</a></li>
 									</ul>
 								</div>
 								<div class="col-md-2">
 									<ul>
-										<li><a href="">Kế hoạch học tập</a></li>
+										<li><a href="/philippine-language-study-plan/">Kế hoạch học tập</a></li>
 										<li>&nbsp;</li>
-										<li><a href="">Bài kiểm tra TOEIC</a></li>
-										<li><a href="">Bài thi IELTS</a></li>
-										<li><a href="">Power speaking </a></li>
-										<li><a href="">Học ngắn hạn  (1 – 3 tuần)</a></li>
-										<li><a href="">Học dài hạn</a></li>
-										<li><a href="">Giá tốt nhất</a></li>
-										<li><a href="">Philippines và quốc gia khác</a></li>
+										<li><a href="http://talk-academy.vn/toeic-test/">Bài kiểm tra TOEIC</a></li>
+										<li><a href="http://talk-academy.vn/ielts-test/">Bài thi IELTS</a></li>
+										<li><a href="http://talk-academy.vn/intensive-speaking/">Power speaking </a></li>
+										<li><a href="http://talk-academy.vn/short-term-study/">Học ngắn hạn  (1 – 3 tuần)</a></li>
+										<li><a href="http://talk-academy.vn/long-term-study/">Học dài hạn</a></li>
+										<li><a href="http://talk-academy.vn/best-price/">Giá tốt nhất</a></li>
+										<li><a href="http://talk-academy.vn/philippines-and-other-countries/">Philippines và quốc gia khác</a></li>
 									</ul>
 								</div>
 								<div class="col-md-2">
 									<ul>
-										<li><a href="">Cộng đồng</a></li>
+										<li><a href="/news/">Cộng đồng</a></li>
 										<li>&nbsp;</li>
-										<li><a href="">Thông báo</a></li>
-										<li><a href="">Trải nghiệm của học viên</a></li>
-										<li><a href="">Bửa ăn tại TALK</a></li>
-										<li><a href="">Khám quá Philippines</a></li>
-										<li><a href="">Best Student &amp; Teacher</a></li>
+										<li><a href="http://talk-academy.vn/news/">Thông báo</a></li>
+										<li><a href="http://talk-academy.vn/experiences/">Trải nghiệm của học viên</a></li>
+										<li><a href="http://talk-academy.vn/meals/">Bửa ăn tại TALK</a></li>
+										<li><a href="http://talk-academy.vn/inside-philippine/">Khám quá Philippines</a></li>
+										<li><a href="http://talk-academy.vn/best-students-and-teachers/">Best Student &amp; Teacher</a></li>
 									</ul>
 								</div>
 							</div>
