@@ -185,6 +185,80 @@
 		
 
 
+	<div class="collapse navbar-collapse" id="example-navbar-collapse-xs">
+	      <ul class="nav navbar-nav">
+		<li class="mobile-dropdown">
+		<span data-toggle="collapse" data-target="#first-mobile-menu">About TALK</span>
+		  <ul id="first-mobile-menu" class="collapse">
+		    <li><a href="http://talk-academy.com/about-us/">About TALK</a></li>
+		    <li><a href="http://talk-academy.com/about-us/">About TALK</a></li>
+                            <li><a href="http://talk-academy.com/greetings/">Greetings</a></li>
+                            <li><a href="http://talk-academy.com/strengths/">Strengths</a></li>
+                            <li><a href="http://talk-academy.com/location/">Location</a></li>
+                          </ul>
+                        </li>
+                        <li class="mobile-dropdown">
+                            <span data-toggle="collapse" data-target="#second-mobile-menu">Process</span>
+                            <ul id="second-mobile-menu" class="collapse">
+                              <li><a href="http://talk-academy.com/procedure/">Process</a></li>
+                              <li><a href="http://talk-academy.com/about-preparation/">About Preparation</a></li>
+                              <li><a href="http://talk-academy.com/faqs/">FAQ</a></li>
+                              <li><a href="http://talk-academy.com/medical-and-insurance/">Medical and Insurance</a></li>
+                              <li><a href="http://talk-academy.com/way-to-baguio/">Way to Baguio</a></li>
+                              <li><a href="http://talk-academy.com/campaigns/">캠페인</a></li>
+                            </ul>
+                          </li>
+                          <li class="mobile-dropdown">
+                            <span data-toggle="collapse" data-target="#third-mobile-menu">Registration</span>
+                            <ul id="third-mobile-menu" class="collapse">
+                              <li><a href="http://talk-academy.com/tuition-fee/">Registration</a></li>
+                              <li><a href="http://talk-academy.com/dormitory-type/">Dormitory</a></li>
+                              <li><a href="http://talk-academy.com/miscellaneous-fee/">Misc Fee</a></li>
+                              <li><a href="http://talk-academy.com/ielts-official-test-dates/">IELTS Official Test Schedules</a></li>
+                              <li><a href="http://talk-academy.com/toeic-official-test-dates/">TOEIC Official Test Schedules</a></li>
+                              <li><a href="http://talk-academy.com/philippine-holiday/">Philippines Holiday</a></li>
+                              <li><a href="http://talk-academy.com/official-pickup-dates/">Official Pickup Dates</a></li>
+                              <li><a href="http://talk-academy.com/refund-policy/">Refund Policy</a></li>
+                              <li><a href="http://talk-academy.com/online-registration/">Online Registration</a></li>
+                            </ul>
+                          </li>
+                          <li class="mobile-dropdown">
+                            <span data-toggle="collapse" data-target="#fourth-mobile-menu">Talk's Know-how</span>
+                            <ul id="fourth-mobile-menu" class="collapse">
+                              <li><a href="http://talk-academy.com/yangco-esl/">ESL 421, 521, 611</a></li>
+                              <li><a href="http://talk-academy.com/ielts/">IELTS</a></li>
+                              <li><a href="http://talk-academy.com/toiec/">TOEIC</a></li>
+                              <li><a href="http://talk-academy.com/power-speaking/">Power Speaking</a></li>
+                              <li><a href="http://talk-academy.com/job-ready-en/">Working Holiday</a></li>
+                              <li><a href="http://talk-academy.com/family-esl-en/">Family ESL</a></li>
+                              <li><a href="http://talk-academy.com/online-consultation/">Online Consultation</a></li>
+                            </ul>
+                          </li>
+                          <li class="mobile-dropdown">
+                            <span data-toggle="collapse" data-target="#fifth-mobile-menu">Study Plans</span>
+		      <li><a href="http://talk-academy.com/toeic-test-en/">TOEIC Exam</a></li>
+		      <li><a href="http://talk-academy.com/ielts-test/">IELTS Exam</a></li>
+		      <li><a href="http://talk-academy.com/intensive-speaking-en/">Intensive Speaking</a></li>
+		      <li><a href="http://talk-academy.com/short-term-study/">Short Term Study</a></li>
+		      <li><a href="http://talk-academy.com/long-term-study/">Long Term Study</a></li>
+		      <li><a href="http://talk-academy.com/best-price/">Best Price</a></li>
+		      <li><a href="http://talk-academy.com/philippines-and-other-countries/">Philippines and Other Countries</a></li>
+		    </ul>
+		  </li>
+		<li class="mobile-dropdown">
+		  <span data-toggle="collapse" data-target="#sixth-mobile-menu">Community</span>
+		  <ul id="sixth-mobile-menu" class="collapse">
+		    <li><a href="http://talk-academy.com/notice/">News</a></li>
+                            <li><a href="http://talk-academy.com/experiences/">Experiences</a></li>
+                            <li><a href="http://talk-academy.com/meals/">Meals</a></li>
+                            <li><a href="http://talk-academy.com/inside-philippine/">Inside Philippines</a></li>
+                            <li><a href="http://talk-academy.com/best-students-and-teachers/">Best Students and Teachers</a></li>
+                            <li><a href="http://talk-academy.com/travels/">Travels</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+
 
                 <div class="collapse navbar-collapse" id="example-navbar-collapse">
                   <div class="col-xs-12 col-sm-12 col-md-8">
@@ -227,14 +301,63 @@
                             </ul>
                           </li>
 
-                      <li><a href="#">Đăng kí</a></li>
-                      <li><a href="#">Khóa học</a></li>
-                      <li><a href="#">Kế hoạch học tập</a></li>
-                      <li><a href="#">Cộng đồng</a></li>
+                        <li class="dropdown-submenu">
+                           <a href="/more-about-talk">Khóa học</a>
+			   <ul class="dropdown-menu">
+				<li><a href="http://talk-academy.vn/yangco-esl/">ESL 421, 521, 611</a></li>
+				<li><a href="http://talk-academy.vn/ielts/">Intensive IELTS</a></li>
+				<li><a href="http://talk-academy.vn/toeic/">Intensive TOEIC</a></li>
+				<li><a href="http://talk-academy.vn/power-speaking/">Power Speaking</a></li>
+				<li><a href="http://talk-academy.vn/job-ready">Working Holiday</a></li>
+				<li><a href="http://talk-academy.vn/family-esl/">Family ESL</a></li>
+				<li><a href="http://talk-academy.vn/online-consultation/">Liên hệ</a></li>
+			   </ul>
+			</li>
+
+                      <li class="dropdown-submenu">
+			 <a href="/philippine-language-study-plan/">Kế hoạch học tập</a>
+			 <ul class="dropdown-menu">
+				<li><a href="http://talk-academy.vn/toeic-test/">Bài kiểm tra TOEIC</a></li>
+				<li><a href="http://talk-academy.vn/ielts-test/">Bài thi IELTS</a></li>
+				<li><a href="http://talk-academy.vn/intensive-speaking/">Power speaking </a></li>
+				<li><a href="http://talk-academy.vn/short-term-study/">Học ngắn hạn  (1 – 3 tuần)</a></li>
+				<li><a href="http://talk-academy.vn/long-term-study/">Học dài hạn</a></li>
+				<li><a href="http://talk-academy.vn/best-price/">Giá tốt nhất</a></li>
+				<li><a href="http://talk-academy.vn/philippines-and-other-countries/">Philippines và quốc gia khác</a></li>
+			 </ul>
+		      </li>
+
+                        <li class="dropdown-submenu">
+                          <a href="/notice/">Cộng đồng</a>
+			  <ul class="dropdown-menu">
+				<li><a href="http://talk-academy.vn/news/">Thông báo</a></li>
+				<li><a href="http://talk-academy.vn/experiences/">Trải nghiệm của học viên</a></li>
+				<li><a href="http://talk-academy.vn/meals/">Bửa ăn tại TALK</a></li>
+				<li><a href="http://talk-academy.vn/inside-philippine/">Khám quá Philippines</a></li>
+				<li><a href="http://talk-academy.vn/best-students-and-teachers/">Best Student &amp; Teacher</a></li>
+			  </ul>
+			</li>
                     </ul>
                   </div>
-                </div>
-              </nav>
-          </div>
-        </div>
-      </header>
+
+                      <div class="col-xs-12 col-sm-12 col-md-4">
+                        <div class="row">
+                          <div class="search-lens">
+                            <span class="fa fa-search"></span>
+                            <div class="floating-search-tb hidden">
+                              <div class="input-group">
+                                <form action="/" method="get" role="search">
+                                    <input name="s" type="text" class="form-control" style="width: 210px !important; float: left;" />
+                                    <span class="input-group-addon" style="width: 40px; height: 34px; float: left;" onclick="javascript:$(this).closest('form').submit();">
+                                        <i class="fa fa-search"></i>
+                                    </span>
+                                  </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+              </div>
+      
