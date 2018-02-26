@@ -224,9 +224,6 @@ Chúng tôi có chương trình tiếng Anh chi phí phải chăng dành cho ng�
 					<div id="best-place-list-container"></a>
 						<ul id="best-place-list">
 							<?php do_shortcode('[show_topThree post_type="travel"]'); ?>
-							<li><a href="#">Baguio City </a></li>
-							<li><a href="#">La Union</a></li>
-							<li><a href="#">Cebu</a></li>
 						</ul>
 					</div>
 				</div>
