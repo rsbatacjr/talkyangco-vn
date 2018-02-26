@@ -14,6 +14,9 @@ get_header();
 			<?php endwhile;
 			endif; ?>
 	</div>
+	<div class="row">
+        <?php comments_template(); ?>
+    </div>
 </div>
 
 <?php 

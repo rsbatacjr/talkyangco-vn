@@ -81,6 +81,35 @@ function create_post_type() {
 	);
 
 	register_post_type(
+		'travel',
+		array(
+			'labels' => array(
+				'name' => __('Travels'),
+				'singular_name' => __('Travel'),
+				'add_new' => __('New Travel'),
+				'add_new_item' => __('Add New Course'),
+				'new_item' => __('New Travel'),
+				'edit_item' => __('Edit Travel'),
+				'view_item' => __('View Travel'),
+				'all_items' => __('All Travels'),
+			),
+		'menu_icon' => 'dashicons-smiley',
+		'public' => true,
+		'has_archive' => true,
+		'supports' => array(
+			'name',
+			'title',
+			'editor',
+			'excerpt',
+			'custom-fields',
+			'thumbnail',
+			'revisions',
+			'comments'
+			)
+		)
+	);	
+	
+	register_post_type(
 		'faq',
 		array('labels' => array(
 			'name' => __('FAQs'),

