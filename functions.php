@@ -510,10 +510,10 @@ function show_footerImages_func($atts, $content = null) {
         	if ($col == 1) {
         		$htmlResult.="<div class='row'>";
         	}
-        	$htmlResult.="<div class='col-xs-3 col-md-2' style='margin-bottom: 10px;".($col == 1 ? "padding-right: 5px" : ($col == 6 ? "padding-left: 5px" : "padding-left: 10px; padding-right: 10px"))."'>
-        					<div style='width: 100%; height: auto; max-height: 200px; position: relative; overflow: hidden'>
+        	$htmlResult.="<div class='col-xs-4 col-md-2' style='margin-bottom: 10px;".($col == 1 ? "padding-right: 5px" : ($col == 6 ? "padding-left: 5px" : "padding-left: 10px; padding-right: 10px"))."'>
+        					<div class='footer-image' style='width: 100%; max-height: 200px; position: relative; overflow: hidden'>
 	        					<a href='".get_permalink()."'>
-	        						<img src='$thumbnail[0]' style='position:absolute;top:-25px; width: 100%; height:250px;'><br>
+	        						<img  src='$thumbnail[0]' style='position:absolute;top:-25px; width: 100%; height:250px;'><br>
 	    						</a>
     						</div>
         				  </div>";
